@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+@font-face {
+	font-family: "SecondaSoft";
+	src: url("./assets/fonts/SecondaSoft-Regular.otf"),
+		url("./assets/fonts/SecondaSoft-Black.otf") format("opentype"),
+		url("./assets/fonts/SecondaSoft-BlackIt.otf") format("opentype"),
+		url("./assets/fonts/SecondaSoft-Bold.otf") format("opentype"),
+		url("./assets/fonts/SecondaSoft-Light.otf") format("opentype"),
+		url("./assets/fonts/SecondaSoft-Medium.otf") format("opentype"),
+		url("./assets/fonts/SecondaSoft-Regular.otf") format("opentype"),
+		url("./assets/fonts/SecondaSoft-Thin.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "SecondaSoft";
+}
+.sidebar {
+	-webkit-animation: slide-left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	animation: slide-left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+
+.sidebarr {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.weather_box {
+	padding: 20px 18px;
+	
+	
+	height: 500px;
+	border-radius: 50px;
+}
+.second_box {
+	padding: 22px 18px;
+	
+	height: 120px;
+	border-radius: 50px;
+}
