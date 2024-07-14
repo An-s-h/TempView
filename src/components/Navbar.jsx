@@ -37,13 +37,13 @@ const Navbar = ({ theme, toggleTheme, temperatureUnit, setTemperatureUnit }) => 
         <img
           src={logowhite}
           alt='logo'
-          className='w-[200px] h-[120px] ml-0 absolute top-2  cursor-pointer max-[490px]:w-[200px]
+          className='w-[200px] h-[120px] ml-0 absolute top-2  cursor-pointer max-[490px]:w-[160px]
            max-[490px]:h-[120px]'
         />
         : <img
         src={logoblack}
         alt='logo'
-        className='w-[200px] h-[120px] ml-0 absolute top-2  cursor-pointer max-[490px]:w-[200px]
+        className='w-[200px] h-[120px] ml-0 absolute top-2  cursor-pointer max-[490px]:w-[160px]
          max-[490px]:h-[120px]'
       />
       }
